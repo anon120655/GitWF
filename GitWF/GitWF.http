@@ -1,0 +1,6 @@
+@GitWF_HostAddress = http://localhost:5031
+
+GET {{GitWF_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
