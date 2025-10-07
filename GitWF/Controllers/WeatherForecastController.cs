@@ -19,6 +19,7 @@ namespace GitWF.Controllers
             _logger = logger;
         }
 
+        //ขอ PR login
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
